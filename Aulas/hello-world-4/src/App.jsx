@@ -1,11 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { Section } from './components/Section'
-import { Section2 } from './components/Sectio2'
-import { Navbar } from './components/Navbar'
-import { Site } from './components/Site'
 import {BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
@@ -20,6 +14,7 @@ function App() {
         <>
         <div>
           <h1>Login</h1>
+          <h2>OLa mundo 2 </h2>
           </div>
           </>
       }>
@@ -33,6 +28,8 @@ function App() {
       </Route>
     </Routes>
     </BrowserRouter>
+
+    <h2> teste hello</h2>
     </>
   )
 }
