@@ -10,6 +10,7 @@ function App() {
     <>
       <Navbar />
       <Section />
+      
 
       <div>
         <h1>teste lindao</h1>
