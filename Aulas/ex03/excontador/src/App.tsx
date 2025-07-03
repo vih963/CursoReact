@@ -2,6 +2,8 @@ import './App.css'
 import { Botao } from './components/Botao'
 import { MyComponent } from './components/MyComponentes'
 import { SegundoComponent } from './components/SegundoComponent'
+import { Events } from './components/Event'
+import { Challenge } from './components/Challenge'
 
 
 
@@ -12,6 +14,11 @@ function App() {
     <Botao />
     <SegundoComponent />
     <MyComponent />
+    <Events />
+    <Challenge />
+    <div>
+      
+    </div>
     </div>
   )
 }
