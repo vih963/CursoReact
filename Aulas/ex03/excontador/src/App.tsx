@@ -3,7 +3,7 @@ import { Botao } from './components/Botao'
 import { MyComponent } from './components/MyComponentes'
 import { SegundoComponent } from './components/SegundoComponent'
 import { Events } from './components/Event'
-import { Challenge } from './components/Challenge'
+import Challenge2 from './components/Challenge2'
 
 
 
@@ -15,7 +15,7 @@ function App() {
     <SegundoComponent />
     <MyComponent />
     <Events />
-    <Challenge />
+    <Challenge2 />
     <div>
       
     </div>
