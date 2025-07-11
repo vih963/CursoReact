@@ -4,6 +4,8 @@ import { MyComponent } from './components/MyComponentes'
 import { SegundoComponent } from './components/SegundoComponent'
 import { Events } from './components/Event'
 import Challenge2 from './components/Challenge2'
+import  HooksEmUso from './components/HooksEmUso' 
+import ListaRenderizada from './components/ListaRenderizada'
 
 
 
@@ -16,10 +18,11 @@ function App() {
     <MyComponent />
     <Events />
     <Challenge2 />
-    <div>
+    <HooksEmUso />
+    <ListaRenderizada />
       
     </div>
-    </div>
+    
   )
 }
 
