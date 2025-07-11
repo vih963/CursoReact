@@ -6,6 +6,7 @@ import { Events } from './components/Event'
 import Challenge2 from './components/Challenge2'
 import  HooksEmUso from './components/HooksEmUso' 
 import ListaRenderizada from './components/ListaRenderizada'
+import CondicionalRender from './components/CondicionalRender'
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <Challenge2 />
     <HooksEmUso />
     <ListaRenderizada />
+    <CondicionalRender />
       
     </div>
     
