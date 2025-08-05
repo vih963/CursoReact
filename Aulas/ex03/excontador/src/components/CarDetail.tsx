@@ -1,11 +1,11 @@
-const CarDetails = ({ brand, km, color }) => {
+const CarDetails = (props: any) => {
     return (
         <div>
             <h2>Detalhes do Veiculo</h2>
             <ul>
-                <li>Marca: {brand}</li>
-                <li>KM: {km} </li>
-                <li>Cor: {color}</li>
+                <li>Marca: {props.brand}</li>
+                <li>KM: {props.km} </li>
+                <li>Cor: {props.color}</li>
             </ul>
         </div>
     )
