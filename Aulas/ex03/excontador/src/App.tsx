@@ -9,8 +9,7 @@ import ListaRenderizada from './components/ListaRenderizada'
 import CondicionalRender from './components/CondicionalRender'
 import ShowUserName from './components/ShowUserName'
 import { useState } from 'react'
-
-
+import CarDetails from './components/CarDetail'
 
 function App() {
 
@@ -29,7 +28,7 @@ function App() {
       <ListaRenderizada />
       <CondicionalRender />
       <ShowUserName name={userName} />
-
+      <CarDetails brand="VW" km={1000} color="Azul" />;
     </div>
 
   )
