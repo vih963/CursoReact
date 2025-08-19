@@ -3,12 +3,14 @@ import ManageData from './components/ManageData'
 import './App.css'
 import Condicional from "./components/Condicional"
 import CarDetails from "./components/CarDetails"
+import Titulo from './components/Titulo'
 
 
 function App() {
 
   return (
     <>
+      <Titulo />
       <h1>Avançando em React</h1>
       {/*imagem na pasta public*/}
       <div>
